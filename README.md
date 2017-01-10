@@ -5,7 +5,8 @@ The files in this set of scripts are organized in a slightly different manner to
 
 Usage: 
 ```bash
-create-react-app --scripts-version react-scripts-by-feature MyAwesomeApp```
+create-react-app --scripts-version react-scripts-by-feature MyAwesomeApp
+```
 
 Please refer to its documentation:
 
