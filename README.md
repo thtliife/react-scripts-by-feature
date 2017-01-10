@@ -1,7 +1,9 @@
 # react-scripts-by-feature
 
 This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).  
-The files in this set of scripts are organized in a slightly different manner to the official scripts in [create React App](https://github.com/facebookincubator/create-react-app)
+The files in this set of scripts are organized in a slightly different manner to the official scripts in [create React App](https://github.com/facebookincubator/create-react-app), mainly in a domain style organization method, with domains in subdirectories under `src/parts`.
+
+*CSS Modules is also enabled in these scripts.*
 
 Usage: 
 ```bash
