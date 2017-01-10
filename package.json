@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts",
+  "name": "react-scripts-by-feature",
   "version": "0.8.4",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "thtliife/create-react-app-extra",
+  "repository": "https://github.com/thtliife/react-scripts-by-feature",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
+    "url": "https://github.com/thtliife/react-scripts-by-feature/issues"
   },
   "files": [
     ".babelrc",
