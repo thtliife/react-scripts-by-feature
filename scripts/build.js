@@ -171,7 +171,7 @@ function build(previousSizeMap) {
       if (typeof appPackage.scripts.deploy === 'undefined') {
         console.log()
         if (useYarn) {
-          console.log('  ' + chalk.cyan('yarn') +  ' add --dev gh-pages')
+          console.log('  ' + chalk.cyan('yarnpkg') +  ' add --dev gh-pages')
         } else {
           console.log('  ' + chalk.cyan('npm') +  ' install --save-dev gh-pages')
         }
@@ -188,7 +188,7 @@ function build(previousSizeMap) {
         console.log('Then run:')
       }
       console.log()
-      console.log('  ' + chalk.cyan(useYarn ? 'yarn' : 'npm') +  ' run deploy')
+      console.log('  ' + chalk.cyan(useYarn ? 'yarnpkg' : 'npm') +  ' run deploy')
       console.log()
     } else if (publicPath !== '/') {
       // "homepage": "http://mywebsite.com/project"
@@ -216,7 +216,7 @@ function build(previousSizeMap) {
       console.log('You may also serve it locally with a static server:')
       console.log()
       if (useYarn) {
-        console.log('  ' + chalk.cyan('yarn') +  ' global add pushstate-server')
+        console.log('  ' + chalk.cyan('yarnpkg') +  ' global add pushstate-server')
       } else {
         console.log('  ' + chalk.cyan('npm') +  ' install -g pushstate-server')
       }

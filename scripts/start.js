@@ -34,7 +34,7 @@ var config = require('../config/webpack.config.dev')
 var paths = require('../config/paths')
 
 var useYarn = fs.existsSync(paths.yarnLockFile)
-var cli = useYarn ? 'yarn' : 'npm'
+var cli = useYarn ? 'yarnpkg' : 'npm'
 var isInteractive = process.stdout.isTTY
 
 // Warn and crash if required files are missing
